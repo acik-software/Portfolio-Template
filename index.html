@@ -13,23 +13,22 @@
     <style>
         /*General shit*/
         :root{
-            --black: #343a40;
-            --brown: #F1E4D1;
-            --ivory: #FFFFF0;
-            --white: #FFFFFF;
-            --blue: #3479d3;
-            --light-blue: #F0F0FF;
-            --purple: #7373FF;
-            --pink: #FF6FB7;
-            --green: #5DFFAE;
+            --body-primary: #343a40;
+            --bg-primary: #FFFFF0;
+            --bg-secondary: #F1E4D1;
+            --header-primary: #7373FF;
+            --header-secondary: #3479d3;
+            --nav-accent: #F0F0FF;
+            --hover: #7373FF;
+            --accent: #FF6FB7;
         }
         body{
             transition: opacity 1.5s;
-            background-color: var(--ivory);
+            background-color: var(--bg-primary);
             opacity: 0;
         }
         p, a, h1, h2, h3, h4, h5, h6{
-            color: var(--black);
+            color: var(--body-primary);
         }
         section{
             /*height: 100vh;*/
@@ -39,10 +38,10 @@
             opacity: 0;
         }
         .heading{
-            color: var(--purple)
+            color: var(--header-primary)
         }
         .card-title{
-            color: var(--blue)
+            color: var(--header-secondary)
         }
         /*Navbar*/
         .navbar{
@@ -61,12 +60,12 @@
             transition: 0.5s;
             font-size: 1.5rem;
             text-decoration: none;
-            color: var(--black);
-            border-bottom: 3px solid var(--light-blue);
+            color: var(--body-primary);
+            border-bottom: 3px solid var(--nav-accent);
         }
         .nav-item a:hover{
             transition: 0.5s;
-            border-bottom: 3px solid var(--purple);
+            border-bottom: 3px solid var(--hover);
         }
         /*Waving animation*/
         .wave{
@@ -101,31 +100,21 @@
         }
         .contact-items a:hover{
             transition: 0.5s;
-            color: var(--purple)
+            color: var(--hover)
         }
         .rounded-circle{
-            border: 3px solid var(--pink);
+            border: 3px solid var(--accent);
         }
         /*Experience section*/
         #experience{
-            background-color: var(--brown);
+            background-color: var(--bg-secondary);
         }
         .experience-items li{
-            border-left: 5px solid var(--pink);
+            border-left: 5px solid var(--accent);
             padding-left: 20px;
         }
         .experience-items li h3{
-            color: var(--blue);
-        }
-        /*Projects section*/
-        #projects .btn{
-            transition: 0.5s;
-            background-color:#00ff80;
-            border: none;
-        }
-        #projects .btn:hover{
-            transition: 0.5s;
-            background-color: var(--green)
+            color: var(--header-secondary);
         }
     </style>
     <!--Body of site-->
@@ -191,7 +180,7 @@
         <section id="projects" class="p-4">
             <div class="container">
                 <h1 class="mb-3 heading">Projects</h1>
-                <div class="row text-center">
+                <div class="row text-center">-->
                     <div class="col-md-4 my-2">
                         <div class="card">
                             <div class="card-body">
