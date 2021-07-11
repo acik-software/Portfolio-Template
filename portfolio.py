@@ -236,5 +236,5 @@ content = f'''
 </html>
 '''
 
-with open(os.path.join(PATH,'output.html'), 'wb') as f:
+with open(os.path.join(PATH,'index.html'), 'wb') as f:
     f.write(content.encode())
