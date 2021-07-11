@@ -1,13 +1,13 @@
 # portfolio-template 📁
 Template for a portfolio website. A sample of this site is running [here](https://portfoliotemplate.codes).
 
-## :pushping: Installation
+## :pushpin: Installation
 ```
 git clone https://github.com/acik-software/portfolio-template.git
 cd portfolio-template
 ```
 
-## :pushping: Usage
+## :pushpin: Usage
 To run the script:
 ```
 python3 portfolio.py
